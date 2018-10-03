@@ -113,9 +113,12 @@ public class Calculator {
 			return Double.NaN;
 	}
 
-	int mod(int first, int second) {
+	double mod(double first, double second) {
 		// TODO implement the body of this method
-		return 0;
+		if(second != 0)
+			return first % second;
+		else
+			return Double.NaN;
 	}
 
 	static int getCount() {
