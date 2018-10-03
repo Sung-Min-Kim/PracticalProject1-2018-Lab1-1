@@ -74,12 +74,16 @@ public class Calculator {
 	
 	/**
 	 * @param prefix
-	 * @param d
+	 * @param result
 	 * This method prints out computation result.
 	 */
-	void print(String prefix, double d) {
-		System.out.println(prefix + " " + d);
+	void print(String prefix, int result) {
+		System.out.println(prefix + " " + result);
 	}
+	void print(String prefix, double result) {
+		System.out.println(prefix + " " + result);	
+	}
+	
 
 	int sum(int first, int second) {
 		countForAnyCompution++;
